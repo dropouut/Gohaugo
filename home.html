@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gohaugo &ac; Home</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.indigo-pink.min.css">
+    <script type="text/javascript" src="https://gc.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=-Q2LiFFhKjE3vYUKqwR1BUKB8ixvZLKUPzPmjDejywOv8uEowWktDUcmUwBiQVeI0PV13AXtkHMfCaGJDm9KixpMKpmMLNRuweYk8T-b0D3mfnYOQLA_lut_sZ02pVEsjGgazVZmFlkj-I3c6Izj4w" charset="UTF-8"></script><script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
+</head>
+<body>
+    <!-- Das wird danach das die Seite z.b. wie bei Discord wenn man sich einloggt oder ein acc. macht. -->
+
+
+<ul class="mdl-menu mdl-menu--bottom-left mdl-js-menu mdl-js-ripple-effect"
+for="demo-menu-lower-left">
+<li class="mdl-menu__item">Your Servers</li> 
+<!-- Bitte das auch machen das es auch geht -->
+<li class="mdl-menu__item mdl-menu__item--full-bleed-divider" disabled>Applications</li>
+<li disabled class="mdl-menu__item">Terms of Service</li>
+<li class="mdl-menu__item" disabled>Discord Server</li>
+<!-- Wide card with share menu button -->
+<style>
+    .demo-card-wide.mdl-card {
+      width: 512px;
+    }
+    .demo-card-wide > .mdl-card__title {
+      color: #fff;
+      height: 176px;
+      background: url('../assets/demos/welcome_card.jpg') center / cover;
+    }
+    .demo-card-wide > .mdl-card__menu {
+      color: #fff;
+    }
+    .a-disabled {
+        color: red;
+        margin-left: 25px;
+    }
+    #premium_buy_button {
+        background-color: gold;
+        color: white;
+        transition: 1.5s;
+        border-radius: 5px;
+    }
+    </style>
+    
+</ul>
+    </div>
+    <!-- The drawer is always open in large screens. The header is always shown,
+  even in small screens. -->
+  <div class="mdl-layout mdl-js-layout mdl-layout--fixed-drawer
+  mdl-layout--fixed-header">
+  <header class="mdl-layout__header">
+    <div class="mdl-layout__header-row">
+  <div class="mdl-layout-spacer"></div>
+  <div class="mdl-textfield mdl-js-textfield mdl-textfield--expandable
+        mdl-textfield--floating-label mdl-textfield--align-right">
+
+</label>
+<div class="mdl-textfield__expandable-holder">
+    <input class="mdl-textfield__input" type="text" name="sample"
+         id="fixed-header-drawer-exp">
+</div>
+</div>
+</div>
+</header>
+<div class="mdl-layout__drawer">
+<span class="mdl-layout-title">Your Servers</span>
+<hr>
+<nav class="mdl-navigation">
+<a class="mdl-navigation__link" href="">Example Server 1</a>
+<a class="mdl-navigation__link" href="">Example Server 2</a>
+<a class="mdl-navigation__link" href="">Example Server 3</a>
+<a class="mdl-navigation__link" href="">Example Server 4</a>
+<hr>
+<a class="mdl-navigation__link" href="login.html" style="color: rgb(177, 0, 0); background-color: rgba(206, 2, 2, 0.266); border-radius: 5px;">Logout</a>
+<hr>
+<a class="mdl-navigation__link" id="premium_buy_button" href="premium-buy.html">Buy Premium</a>
+<hr>
+<a class="mdl-navigation__link" id="support_link_button" href="support.html" style="color: rgb(177, 0, 0); background-color: rgba(255, 0, 170, 0.438);">Support</a>
+</nav>
+
+</div>
+
+<main class="mdl-layout__content">
+<div class="page-content" style="margin-left: 15px;">
+    <!-- No header, and the drawer stays open on larger screens (fixed drawer). -->
+<div class="mdl-layout mdl-js-layout mdl-layout--fixed-drawer">
+    <div class="mdl-layout__drawer">
+      <span class="mdl-layout-title">Textchannels</span>
+      <hr>
+      <nav class="mdl-navigation">
+        <a class="mdl-navigation__link" href="chat.html">#public-chat</a>
+        <a class="mdl-navigation__link" href="">Textchannel Example 2</a>
+        <a class="mdl-navigation__link" href="">Textchannel Example 3</a>
+        <a class="mdl-navigation__link" href="">Textchannel Example 4</a>
+      </nav>
+    </div>
+    <main class="mdl-layout__content">
+      <div class="page-content"><!-- Your content goes here --></div>
+    </main>
+  </div>
+    <!-- Hier ist der Content! Nur hier! -->
+</div>
+</main>
+</div>
+
+</body>
+</html>

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <script>
+            var seconds=0;
+            function displayseconds(){
+                seconds += 1;
+                document.getElementById("secondsdisplay").innerText="You will be redirected in "+seconds+" Seconds.."
+            }
+            setInterval(displayseconds, 1000)
+            function redirectpage(){
+                window.location="home.html";
+            }
+            setTimeout('redirectpage()',4000);
+        </script>
+        <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gohaugo &ac; Home</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.indigo-pink.min.css">
+    <script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
+    </head>
+</html>
+<body>
+    <center>
+      
+        <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br> <div id="p2" class="mdl-progress mdl-js-progress mdl-progress__indeterminate"></div>
+           <h4>Please give us some time!</h4>
+            <script src="cookie.js"></script>        
+            <div id="secondsdisplay"></div>
+
+    </center>
+</body>
