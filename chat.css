@@ -1,0 +1,17 @@
+*{
+    color: dodgerblue;
+    background: #222222;
+}
+
+center{
+    background: #222222;
+}
+
+center input{
+    background: #313131;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    padding-top: 15px;
+    text-align:center;
+}
